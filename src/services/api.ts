@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "20b454ed"; // OMDb API anahtarınızı buraya ekleyin
+const API_KEY = "YOUR_API_KEY"; // OMDb API anahtarınızı buraya ekleyin
 const base_url = "https://www.omdbapi.com/";
 
 export const fetchMovies = async (searchQuery: string) => {
